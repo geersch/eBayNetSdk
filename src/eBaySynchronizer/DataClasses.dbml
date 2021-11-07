@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Northwind" Class="eBayDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=CROL3748\SQLEXPRESS;Initial Catalog=Northwind;Persist Security Info=True;User ID=sa" SettingsObjectName="eBaySynchronizer.Properties.Settings" SettingsPropertyName="eBayConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ebay_Category" Member="ebay_Categories">
+    <Type Name="ebay_Category">
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Leaf" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Expired" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Virtual" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="ebay_Category_ebay_Category" Member="ChildCategories" ThisKey="CategoryID" OtherKey="ParentID" Type="ebay_Category" />
+      <Association Name="ebay_Category_ebay_Category" Member="ParentCategory" ThisKey="ParentID" OtherKey="CategoryID" Type="ebay_Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

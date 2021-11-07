@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Web.UI", "Northwind.Web.UI\Northwind.Web.UI.csproj", "{BBD8960F-B803-4821-B3FA-DB1747AED68C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBaySynchronizer", "eBaySynchronizer\eBaySynchronizer.csproj", "{D812770E-B899-4804-881F-686A480B88CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBayPublisher", "eBayPublisher\eBayPublisher.csproj", "{12D6AC4C-4B68-4A8D-B108-5BB31B9465FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBayNotifications", "eBayNotifications\eBayNotifications.csproj", "{C87C6240-D928-4529-AD98-F9A28A3C5527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{EAC90BDC-936E-44D3-8E91-714A183B2A7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBD8960F-B803-4821-B3FA-DB1747AED68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD8960F-B803-4821-B3FA-DB1747AED68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD8960F-B803-4821-B3FA-DB1747AED68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD8960F-B803-4821-B3FA-DB1747AED68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D812770E-B899-4804-881F-686A480B88CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D812770E-B899-4804-881F-686A480B88CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D812770E-B899-4804-881F-686A480B88CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D812770E-B899-4804-881F-686A480B88CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D6AC4C-4B68-4A8D-B108-5BB31B9465FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D6AC4C-4B68-4A8D-B108-5BB31B9465FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D6AC4C-4B68-4A8D-B108-5BB31B9465FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D6AC4C-4B68-4A8D-B108-5BB31B9465FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87C6240-D928-4529-AD98-F9A28A3C5527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87C6240-D928-4529-AD98-F9A28A3C5527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87C6240-D928-4529-AD98-F9A28A3C5527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87C6240-D928-4529-AD98-F9A28A3C5527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC90BDC-936E-44D3-8E91-714A183B2A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC90BDC-936E-44D3-8E91-714A183B2A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC90BDC-936E-44D3-8E91-714A183B2A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC90BDC-936E-44D3-8E91-714A183B2A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

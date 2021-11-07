@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses">
+  <DataContextMoniker Name="/eBayDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1eee9266-02ec-4302-8ce5-c207c343df19" absoluteBounds="2.625, 1.25, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/eBayDataContext/ebay_Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d561bd45-173f-4404-a4d2-2617355cf4b4" absoluteBounds="2.6399999999999997, 1.71, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.3329043738732 : 3.16788981119792); (3.3329043738732 : 3.41788981119792); (3.93100494165665 : 3.41788981119792); (3.93100494165665 : 3.16788981119792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/eBayDataContext/ebay_Category/ebay_Category_ebay_Category" />
+      <nodes>
+        <classShapeMoniker Id="1eee9266-02ec-4302-8ce5-c207c343df19" />
+        <classShapeMoniker Id="1eee9266-02ec-4302-8ce5-c207c343df19" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

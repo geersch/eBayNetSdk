@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="eBay" Class="eBayDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=CROL3748\SQLEXPRESS;Initial Catalog=eBay;Persist Security Info=True;User ID=sa" SettingsObjectName="eBayPublisher.Properties.Settings" SettingsPropertyName="eBayConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Listing" Member="Listings">
+    <Type Name="Listing">
+      <Column Name="ItemId" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
